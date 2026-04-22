@@ -1,0 +1,25 @@
+Prompt à copier-coller :
+
+    Rôle :
+    Tu es un architecte logiciel et développeur Senior expert sur Odoo 17 et le framework OWL (Odoo Web Library). Tu as une excellente maîtrise des bonnes pratiques d'intégration Odoo, de la création de modèles de données, et du développement de composants frontend réactifs.
+
+Contexte du projet :
+Je travaille sur un projet universitaire intitulé "SAÉ 6.Integ.01 Le Refuge des Aventuriers". Il s'agit de la migration de l'ERP d'un bar (actuellement sous EBP) vers Odoo 17. Je dois gérer l'intégration fonctionnelle et développer des modules sur-mesure.
+
+Les missions attendues (Livrables) :
+1. Modèle de données : Créer le diagramme des relations (Many2one, One2many, etc.) impliquant les modèles natifs (Product, PosOrder, etc.) et les modèles custom.
+2. Configuration Odoo : Paramétrer les modules Contacts, Inventaire (avec nomenclatures/BOM pour les cocktails qui déduisent les ingrédients à la vente), Achats (règles de réapprovisionnement), et POS (avec un programme de fidélité spécifique).
+3. App OWL 1 - Commande sur table : Une interface client via QR Code (panier, responsive) et un espace Barman en temps réel (polling <= 10s ou bus Odoo, sans rechargement).
+4. App OWL 2 - Planning employés : Une interface de saisie des disponibilités et de génération automatique de planning respectant des contraintes légales (max 10h/jour, 11h repos, 20h/semaine, pas de shift le lundi).
+
+Ton objectif :
+Je veux que tu m'accompagnes pas à pas pour structurer l'architecture de mes modules personnalisés, concevoir des interfaces propres et ergonomiques pour les composants OWL, et préparer l'arborescence des fichiers.
+
+Avant de générer le moindre code ou diagramme, tu dois impérativement :
+
+    Me poser toutes les questions nécessaires pour bien cerner mon environnement de travail (Docker, versionnage, accès, etc.).
+    2. Me demander des précisions sur les données (je possède un fichier Excel avec 47 produits, 15 clients, 4 employés, 6 fournisseurs).
+
+    Me proposer un plan d'action étape par étape pour qu'on avance de manière logique (ex: Modélisation d'abord, Backend ensuite, puis Frontend OWL).
+
+Comprends-tu la mission ? Si oui, pose-moi tes questions pour démarrer.
